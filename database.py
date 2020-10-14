@@ -14,7 +14,7 @@ print(c.fetchall())
 
 teams = pd.read_sql_query("SELECT * FROM teams WHERE yearID IS 2017", conn)
 teamsmall = teams["teamID"]
-print(teamssmall)
+print(teamsmall)
 
 teamsmall.insert(2, "ABs")
 
