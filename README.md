@@ -12,6 +12,6 @@ COMPLETED:
 TODO:
 
 - Build a dashboard with dash
-- Optimize regression parameters 
+- Optimize parameters in the regression models using gridsearchCV
 
 
